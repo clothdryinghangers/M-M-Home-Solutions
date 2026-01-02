@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import FloatingButtons from '@/components/FloatingButtons'
+import ContentProtection from '@/components/ContentProtection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ContentProtection />
         {children}
         <FloatingButtons />
       </body>
