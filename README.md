@@ -48,31 +48,60 @@ npm start
 
 ## Project Structure
 
+**Note:** This is a Next.js application, not a traditional HTML/CSS/JS website. The structure is different:
+
+### Key Files (Equivalent to traditional website):
+- **`/app/page.tsx`** → Equivalent to `/index.html` (Main homepage)
+- **`/app/globals.css`** → Equivalent to `/style.css` (Global styles)
+- **`/components/`** → Equivalent to `/script.js` (React components with JavaScript)
+- **`/public/images/`** → Your images folder (61 images committed)
+
+### Complete Structure:
+
 ```
-├── app/
+├── app/                          # Main application files
+│   ├── page.tsx                  # Homepage (like index.html)
+│   ├── globals.css               # Global styles (like style.css)
+│   ├── layout.tsx                # Root layout wrapper
+│   ├── about/page.tsx            # About page
+│   ├── contact/page.tsx          # Contact page
 │   ├── category/
 │   │   └── [slug]/
 │   │       ├── page.tsx          # Category pages
 │   │       └── [productSlug]/
 │   │           └── page.tsx      # Product pages
-│   ├── globals.css               # Global styles
-│   ├── layout.tsx                # Root layout
-│   ├── page.tsx                  # Homepage
-│   └── sitemap.ts                # Sitemap generator
-├── components/
-│   ├── CategoryContent.tsx       # Category page content
-│   ├── Chatbot.tsx               # AI chatbot placeholder
-│   ├── ExperienceStats.tsx       # Stats section
-│   ├── FloatingButtons.tsx       # Call/WhatsApp buttons
-│   ├── Footer.tsx                # Footer component
-│   ├── Header.tsx                # Header/Navigation
-│   ├── HeroSlider.tsx            # Hero slider component
-│   ├── ProductContent.tsx        # Product page content
+│   ├── api/inquiry/route.ts      # API endpoint
+│   ├── sitemap.ts                # Sitemap generator
+│   └── robots.ts                 # Robots.txt
+├── components/                    # React components (like script.js)
+│   ├── Header.tsx                # Navigation header
+│   ├── Footer.tsx                # Footer
+│   ├── HeroSlider.tsx            # Hero slider
 │   ├── ServicesGrid.tsx          # Services grid
-│   └── TrustFeatures.tsx         # Trust features section
-└── lib/
-    └── categories.ts              # Category data and utilities
+│   ├── CategoryContent.tsx       # Category page content
+│   ├── ProductContent.tsx        # Product page content
+│   ├── FloatingButtons.tsx       # Call/WhatsApp buttons
+│   ├── ContentProtection.tsx     # Security protection
+│   └── ... (other components)
+├── public/                       # Static files
+│   └── images/                   # All images (61 files)
+│       ├── hero/                 # Hero slider images (9 files)
+│       ├── products/             # Product images (36 files)
+│       └── services/             # Service category images (9 files)
+├── lib/
+│   └── categories.ts             # Category data and utilities
+├── package.json                  # Dependencies
+├── next.config.js                # Next.js configuration
+├── tailwind.config.js            # Tailwind CSS configuration
+└── tsconfig.json                 # TypeScript configuration
 ```
+
+### All Files Are Committed:
+- ✅ 99 files total in Git
+- ✅ 61 image files committed
+- ✅ All components and pages
+- ✅ Configuration files
+- ✅ Documentation files
 
 ## Service Categories
 
