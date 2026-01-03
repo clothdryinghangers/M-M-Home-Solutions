@@ -80,7 +80,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                    <a href="tel:+916309484800" className="text-gray-700 hover:text-primary-600 transition-colors">
+                    <a href="tel:+918790260037" className="text-gray-700 hover:text-primary-600 transition-colors">
                       +91 63094 84800
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Call us anytime</p>
@@ -100,7 +100,7 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">WhatsApp</h3>
                     <a
-                      href="https://wa.me/916309484800?text=Hello! I am interested in your home improvement services."
+                      href="https://wa.me/918790260037?text=Hello! I am interested in your home improvement services."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-700 hover:text-primary-600 transition-colors"

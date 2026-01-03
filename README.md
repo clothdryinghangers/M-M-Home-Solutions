@@ -163,8 +163,8 @@ Create a `.env.local` file for environment-specific variables:
 
 ```env
 NEXT_PUBLIC_SITE_URL=https://www.homesolutions.in
-NEXT_PUBLIC_PHONE=+916309484800
-NEXT_PUBLIC_WHATSAPP=916309484800
+NEXT_PUBLIC_PHONE=+918790260037
+NEXT_PUBLIC_WHATSAPP=918790260037
 ```
 
 ## Deployment

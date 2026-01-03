@@ -14,7 +14,7 @@ interface ProductContentProps {
 }
 
 export default function ProductContent({ category, product }: ProductContentProps) {
-  const whatsappNumber = '916309484800'
+  const whatsappNumber = '918790260037'
   const whatsappMessage = encodeURIComponent(`Hello! I am interested in ${product.name}. Please provide more details and pricing.`)
   const isClothHangerCategory = category.slug === 'ceiling-cloth-drying-hangers' || category.slug === 'wall-mounted-cloth-hangers'
   const isInvisibleGrillsCategory = category.slug === 'invisible-grills'
@@ -118,7 +118,7 @@ export default function ProductContent({ category, product }: ProductContentProp
               {/* CTA Buttons */}
               <div className="space-y-3">
                 <a
-                  href="tel:+916309484800"
+                  href="tel:+918790260037"
                   className="w-full flex items-center justify-center space-x-2 bg-red-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors text-lg border-2 border-[#D1B483]"
                 >
                   <FiPhone className="h-6 w-6" />

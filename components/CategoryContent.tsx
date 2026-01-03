@@ -8,7 +8,7 @@ interface CategoryContentProps {
 }
 
 export default function CategoryContent({ category }: CategoryContentProps) {
-  const whatsappNumber = '916309484800'
+  const whatsappNumber = '918790260037'
   const whatsappMessage = encodeURIComponent(`Hello! I am interested in ${category.name} services.`)
   const isClothHangerCategory = category.slug === 'ceiling-cloth-drying-hangers' || category.slug === 'wall-mounted-cloth-hangers'
   const isInvisibleGrillsCategory = category.slug === 'invisible-grills'
@@ -86,7 +86,7 @@ export default function CategoryContent({ category }: CategoryContentProps) {
                 </p>
                 <div className="space-y-3">
                   <a
-                    href="tel:+916309484800"
+                    href="tel:+918790260037"
                     className="w-full flex items-center justify-center space-x-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors border-2 border-[#D1B483]"
                   >
                     <FiPhone className="h-5 w-5" />

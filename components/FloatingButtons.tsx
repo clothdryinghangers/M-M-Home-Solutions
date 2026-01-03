@@ -3,8 +3,8 @@
 import { FiPhone } from 'react-icons/fi'
 
 export default function FloatingButtons() {
-  const phoneNumber = '+916309484800'
-  const whatsappNumber = '916309484800'
+  const phoneNumber = '+918790260037'
+  const whatsappNumber = '918790260037'
   const whatsappMessage = encodeURIComponent('Hello! I am interested in your home improvement services.')
 
   return (

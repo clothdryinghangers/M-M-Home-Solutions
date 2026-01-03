@@ -4,7 +4,7 @@ const path = require('path');
 
 // Watermark text
 const watermarkText1 = 'M & M Home Solutions';
-const watermarkText2 = 'Call 6309484800';
+const watermarkText2 = 'Call 8790260037';
 
 // Function to create watermark SVG
 function createWatermarkSVG(width, height) {

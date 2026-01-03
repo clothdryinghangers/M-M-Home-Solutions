@@ -39,7 +39,7 @@ export default function Footer() {
               Premium home improvement and installation services across Hyderabad & Secunderabad. Quality products with professional installation.
             </p>
             <div className="space-y-2">
-              <a href="tel:+916309484800" className="flex items-center space-x-2 hover:text-primary-400 transition-colors">
+              <a href="tel:+918790260037" className="flex items-center space-x-2 hover:text-primary-400 transition-colors">
                 <FiPhone className="h-5 w-5" />
                 <span>+91 63094 84800</span>
               </a>
@@ -106,7 +106,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="tel:+916309484800" className="hover:text-primary-400 transition-colors">
+                <a href="tel:+918790260037" className="hover:text-primary-400 transition-colors">
                   Call Now
                 </a>
               </li>

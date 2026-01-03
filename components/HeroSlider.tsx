@@ -104,8 +104,8 @@ export default function HeroSlider() {
     setCurrentSlide((prev) => (prev + 1) % slides.length)
   }
 
-  const phoneNumber = '+916309484800'
-  const whatsappNumber = '916309484800'
+  const phoneNumber = '+918790260037'
+  const whatsappNumber = '918790260037'
   const whatsappMessage = encodeURIComponent('Hello! I am interested in your home improvement services.')
 
   // Prevent hydration mismatch by ensuring consistent initial render

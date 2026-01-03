@@ -9,7 +9,7 @@ import { getAllCategories } from '@/lib/categories'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const whatsappNumber = '916309484800'
+  const whatsappNumber = '918790260037'
   const whatsappMessage = encodeURIComponent('Hello! I am interested in your home improvement services.')
 
   const socialLinks = [
@@ -181,7 +181,7 @@ export default function Header() {
 
           {/* Call Button - Minimalist style */}
           <a
-            href="tel:+916309484800"
+            href="tel:+918790260037"
             className="hidden md:flex items-center space-x-2 bg-red-600 text-white px-6 py-2 hover:bg-red-700 transition-colors uppercase tracking-wide text-sm font-semibold border-2 border-[#D1B483]"
           >
             <FiPhone className="h-4 w-4" />
@@ -191,7 +191,7 @@ export default function Header() {
           {/* Mobile Call, WhatsApp Buttons and Menu Button */}
           <div className="lg:hidden flex items-center gap-2">
             <a
-              href="tel:+916309484800"
+              href="tel:+918790260037"
               className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors border-2 border-[#D1B483]"
               aria-label="Call Now"
             >
@@ -257,7 +257,7 @@ export default function Header() {
                 Contact
               </Link>
               <a
-                href="tel:+916309484800"
+                href="tel:+918790260037"
                 className="mx-4 mt-2 flex items-center justify-center space-x-2 bg-red-600 text-white px-6 py-2 hover:bg-red-700 transition-colors uppercase tracking-wide text-sm font-semibold border-2 border-[#D1B483]"
                 onClick={() => setIsMenuOpen(false)}
               >

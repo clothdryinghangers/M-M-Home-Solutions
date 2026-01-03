@@ -3,7 +3,7 @@
 ## ✅ Already Implemented
 
 ### 1. Image Watermarks
-- All images have watermarks with "M & M Home Solutions" and "Call 6309484800"
+- All images have watermarks with "M & M Home Solutions" and "Call 8790260037"
 - Watermarks are embedded in the image files themselves
 - Location: Bottom-left corner of all images
 

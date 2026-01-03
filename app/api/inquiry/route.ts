@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
     console.log('==================')
 
     // Return success with WhatsApp link
-    const whatsappNumber = '916309484800'
+    const whatsappNumber = '918790260037'
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(inquiryMessage)}`
 
     return NextResponse.json({
