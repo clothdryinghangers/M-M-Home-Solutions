@@ -81,7 +81,7 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
                     <a href="tel:+918790260037" className="text-gray-700 hover:text-primary-600 transition-colors">
-                      +91 63094 84800
+                      +91 8790260037
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Call us anytime</p>
                   </div>
@@ -105,7 +105,7 @@ export default function ContactSection() {
                       rel="noopener noreferrer"
                       className="text-gray-700 hover:text-primary-600 transition-colors"
                     >
-                      +91 63094 84800
+                      +91 8790260037
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Chat with us on WhatsApp</p>
                   </div>
@@ -121,8 +121,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                    <a href="mailto:info@homesolutions.in" className="text-gray-700 hover:text-primary-600 transition-colors">
-                      info@homesolutions.in
+                    <a href="mailto:hyderabadceilinghangers@gmail.com" className="text-gray-700 hover:text-primary-600 transition-colors">
+                      hyderabadceilinghangers@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Send us an email</p>
                   </div>

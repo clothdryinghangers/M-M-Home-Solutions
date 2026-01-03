@@ -39,13 +39,13 @@ export default function Footer() {
               Premium home improvement and installation services across Hyderabad & Secunderabad. Quality products with professional installation.
             </p>
             <div className="space-y-2">
-              <a href="tel:+918790260037" className="flex items-center space-x-2 hover:text-primary-400 transition-colors">
-                <FiPhone className="h-5 w-5" />
-                <span>+91 63094 84800</span>
+              <a href="tel:+918790260037" className="flex items-center space-x-2 text-gray-300 hover:text-primary-400 transition-colors">
+                <FiPhone className="h-5 w-5 flex-shrink-0" />
+                <span>+91 8790260037</span>
               </a>
-              <a href="mailto:info@homesolutions.in" className="flex items-center space-x-2 hover:text-primary-400 transition-colors">
-                <FiMail className="h-5 w-5" />
-                <span>info@homesolutions.in</span>
+              <a href="mailto:hyderabadceilinghangers@gmail.com" className="flex items-center space-x-2 text-gray-300 hover:text-primary-400 transition-colors">
+                <FiMail className="h-5 w-5 flex-shrink-0" />
+                <span>hyderabadceilinghangers@gmail.com</span>
               </a>
               <div className="flex items-start space-x-2">
                 <FiMapPin className="h-5 w-5 mt-1" />
