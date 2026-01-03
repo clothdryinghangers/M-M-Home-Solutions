@@ -137,7 +137,7 @@ export default function HeroSlider() {
             </div>
           )}
           <p className="text-xs md:text-sm text-gray-900 mb-4 font-bold bg-[#D1B483] px-4 py-2 rounded inline-block shadow-lg">
-            Service Available Any Area in Hyderabad & Secundrabad
+            Service Available All Over in Hyderabad & Secunderabad
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export default function HeroSlider() {
         <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 z-20 flex flex-col space-y-3">
           <a
             href={`tel:${phoneNumber}`}
-            className="bg-accent-red hover:bg-accent-red-dark text-white px-6 py-3 font-semibold hover:shadow-lg transition-all duration-200 uppercase tracking-wide flex items-center gap-2 shadow-xl"
+            className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 font-semibold hover:shadow-lg transition-all duration-200 uppercase tracking-wide flex items-center gap-2 shadow-xl border-2 border-[#D1B483]"
           >
             <FiPhone className="h-5 w-5" />
             <span>Call Now</span>
@@ -198,7 +198,7 @@ export default function HeroSlider() {
           </div>
         )}
           <p className="text-xs md:text-sm text-gray-900 mb-4 font-bold bg-[#D1B483] px-4 py-2 rounded inline-block shadow-lg">
-            Service Available Any Area in Hyderabad & Secundrabad
+            Service Available All Over in Hyderabad & Secunderabad
           </p>
       </div>
 

@@ -98,7 +98,7 @@ export default function Header() {
       {/* Top Bar - Inspired by Tones Fashion */}
       <div className="bg-[#113735] text-white text-sm py-2 border-b border-[#0a2a28]">
         <div className="container-custom flex items-center justify-between">
-          <span className="font-medium">Free Installation Across Hyderabad & Secunderabad</span>
+          <span className="font-medium">Free Installation In Hyderabad & Secunderabad</span>
           <div className="hidden md:flex items-center gap-4">
             {socialLinks.map((social) => (
               <a
@@ -182,7 +182,7 @@ export default function Header() {
           {/* Call Button - Minimalist style */}
           <a
             href="tel:+916309484800"
-            className="hidden md:flex items-center space-x-2 bg-accent-red text-white px-6 py-2 hover:bg-accent-red-dark transition-colors uppercase tracking-wide text-sm font-semibold"
+            className="hidden md:flex items-center space-x-2 bg-red-600 text-white px-6 py-2 hover:bg-red-700 transition-colors uppercase tracking-wide text-sm font-semibold border-2 border-[#D1B483]"
           >
             <FiPhone className="h-4 w-4" />
             <span>Call Now</span>
@@ -192,7 +192,7 @@ export default function Header() {
           <div className="lg:hidden flex items-center gap-2">
             <a
               href="tel:+916309484800"
-              className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors"
+              className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors border-2 border-[#D1B483]"
               aria-label="Call Now"
             >
               <FiPhone className="h-5 w-5" />
@@ -258,7 +258,7 @@ export default function Header() {
               </Link>
               <a
                 href="tel:+916309484800"
-                className="mx-4 mt-2 flex items-center justify-center space-x-2 bg-accent-red text-white px-6 py-2 hover:bg-accent-red-dark transition-colors uppercase tracking-wide text-sm font-semibold"
+                className="mx-4 mt-2 flex items-center justify-center space-x-2 bg-red-600 text-white px-6 py-2 hover:bg-red-700 transition-colors uppercase tracking-wide text-sm font-semibold border-2 border-[#D1B483]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <FiPhone className="h-4 w-4" />

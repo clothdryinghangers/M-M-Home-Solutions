@@ -12,7 +12,7 @@ export default function FloatingButtons() {
       {/* Call Button */}
       <a
         href={`tel:${phoneNumber}`}
-        className="bg-accent-red hover:bg-accent-red-dark text-white p-4 rounded-full shadow-2xl hover:shadow-accent-red/50 transition-all duration-300 flex items-center justify-center group w-14 h-14"
+        className="bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-2xl hover:shadow-red-600/50 transition-all duration-300 flex items-center justify-center group w-14 h-14 border-2 border-[#D1B483]"
         aria-label="Call Now"
       >
         <FiPhone className="h-6 w-6 group-hover:scale-110 transition-transform" />
