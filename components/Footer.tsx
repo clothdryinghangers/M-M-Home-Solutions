@@ -49,7 +49,7 @@ export default function Footer() {
               </a>
               <div className="flex items-start space-x-2">
                 <FiMapPin className="h-5 w-5 mt-1" />
-                <span>Hyderabad & Secunderabad, Telangana</span>
+                <span>Hyderabad & Secunderabad</span>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Footer() {
                 </li>
               ))}
               <li className="text-primary-400 font-semibold mt-2">
-                + All areas in Hyderabad & Secunderabad
+                + All Areas in Hyderabad & Secunderabad
               </li>
             </ul>
           </div>
