@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://www.homesolutions.in' // Update with your actual domain
+  const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://clothdryinghangers.com').replace(/\/$/, '')
   
   return {
     rules: {

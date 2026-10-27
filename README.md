@@ -147,7 +147,7 @@ Edit the phone number and WhatsApp number in:
 
 ### Update Domain for Sitemap
 
-Edit `app/sitemap.ts` and update the `baseUrl` variable with your actual domain.
+The sitemap and robots files use `https://clothdryinghangers.com`. Override that with `NEXT_PUBLIC_SITE_URL` if the domain changes.
 
 ### Add/Modify Categories
 
@@ -162,7 +162,7 @@ The chatbot component is ready for GPT integration. See `components/Chatbot.tsx`
 Create a `.env.local` file for environment-specific variables:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://www.homesolutions.in
+NEXT_PUBLIC_SITE_URL=https://clothdryinghangers.com
 NEXT_PUBLIC_PHONE=+918790260037
 NEXT_PUBLIC_WHATSAPP=918790260037
 ```
