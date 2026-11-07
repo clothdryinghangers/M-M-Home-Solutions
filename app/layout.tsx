@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import FloatingButtons from '@/components/FloatingButtons'
 import ContentProtection from '@/components/ContentProtection'
 
 const inter = Inter({ subsets: ['latin'] })
+
+// Sends page views to GA4 measurement ID G-PGZK755C64.
+const GOOGLE_TAG_ID = 'GT-MRQKXFMF'
 
 export const metadata: Metadata = {
   title: 'Balcony Ceiling Cloth Hangers in Hyderabad & Secunderabad | Premium Cloth Drying Hangers Installation',
@@ -29,10 +31,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Manager Script */}
-        <Script
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
+        />
+        <script
+          id="ga4-config"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function gtag(){dataLayer.push(arguments);};
+              window.gtag('js', new Date());
+              window.gtag('config', '${GOOGLE_TAG_ID}');
+            `,
+          }}
+        />
+        <script
           id="gtm-script"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];
